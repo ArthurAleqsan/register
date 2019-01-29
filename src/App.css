@@ -1,0 +1,36 @@
+/* Registration inputs */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.categories-container {
+  display: flex;
+  width: 45vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.categories-box {
+  width: 30%;
+  height: 30%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.authorization-form {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+.form-inputs {
+  padding: 10px;
+  margin: 5px 0;
+  width: 20vw;
+  align-self: center;
+}
